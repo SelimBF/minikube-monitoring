@@ -1,0 +1,43 @@
+# Please edit the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    meta.helm.sh/release-name: prometheus
+    meta.helm.sh/release-namespace: default
+  creationTimestamp: "2021-12-13T19:13:07Z"
+  labels:
+    app: prometheus
+    app.kubernetes.io/managed-by: Helm
+    chart: prometheus-15.0.1
+    component: alertmanager
+    heritage: Helm
+    release: prometheus
+  name: prometheus-alertmanager
+  namespace: default
+  resourceVersion: "4775"
+  uid: 86bf961f-1529-43c1-99ad-6cff2e0d4f95
+spec:
+  clusterIP: 10.108.0.117
+  clusterIPs:
+  - 10.108.0.117
+  internalTrafficPolicy: Cluster
+  ipFamilies:
+  - IPv4
+  ipFamilyPolicy: SingleStack
+  ports:
+  - name: http
+    port: 80
+    protocol: TCP
+    targetPort: 9093
+  selector:
+    app: prometheus
+    component: alertmanager
+    release: prometheus
+  sessionAffinity: None
+  type: NodePort
+status:
+  loadBalancer: {}
