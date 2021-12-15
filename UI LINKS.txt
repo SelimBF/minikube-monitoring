@@ -1,0 +1,20 @@
+cmd for exposed service: minikube service [service name]
+
+
+Exposed services URL
+Prometheus-server:
+http://192.168.59.100:31169/graph?g0.expr=&g0.tab=1&g0.stacked=0&g0.show_exemplars=0&g0.range_input=1h
+
+
+pushgateway:
+http://192.168.59.100:32166/#
+
+grafana:
+http://192.168.59.100:32356/?orgId=1
+
+prometheus-alertmanager:
+http://192.168.59.100:30534/#/alerts
+
+
+grafana dashboard template :
+https://grafana.com/grafana/dashboards/405
