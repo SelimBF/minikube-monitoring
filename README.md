@@ -57,13 +57,20 @@ so I reccomend to expose your service using service.yaml file like this:
   a- choose create alert rule from this panel 
   <img width="737" alt="ca" src="https://user-images.githubusercontent.com/74049018/147853457-12c7e34a-d551-4f84-a427-81428cdf72e4.PNG">
   
-  b-![image](https://user-images.githubusercontent.com/74049018/147853537-e79628f9-6000-4034-b450-0e39ff66df2d.png)
-  c-![image](https://user-images.githubusercontent.com/74049018/147853547-9a902af8-057e-4d28-9ec4-0d34922abb6a.png)
-  d-![image](https://user-images.githubusercontent.com/74049018/147853562-49b720f9-d01f-4186-96d9-cfd650181fdb.png)
-  e-![image](https://user-images.githubusercontent.com/74049018/147853572-b47b503c-2882-41de-9af4-ca84d9499929.png)
-  f-![image](https://user-images.githubusercontent.com/74049018/147853583-f23239df-0d13-483d-96a0-f26548fbda41.png)
-  g-![image](https://user-images.githubusercontent.com/74049018/147853604-73cdc5c4-8367-49e8-ba00-ebcd0abe7f9e.png)
-  h-![image](https://user-images.githubusercontent.com/74049018/147853617-a15ed8dd-b9f8-48ff-a7cf-f8ca13ae9f55.png)
+  b-
+  ![image](https://user-images.githubusercontent.com/74049018/147853537-e79628f9-6000-4034-b450-0e39ff66df2d.png)
+  c-
+  ![image](https://user-images.githubusercontent.com/74049018/147853547-9a902af8-057e-4d28-9ec4-0d34922abb6a.png)
+  d-
+  ![image](https://user-images.githubusercontent.com/74049018/147853562-49b720f9-d01f-4186-96d9-cfd650181fdb.png)
+  e-
+  ![image](https://user-images.githubusercontent.com/74049018/147853572-b47b503c-2882-41de-9af4-ca84d9499929.png)
+  f-
+  ![image](https://user-images.githubusercontent.com/74049018/147853583-f23239df-0d13-483d-96a0-f26548fbda41.png)
+  g-
+  ![image](https://user-images.githubusercontent.com/74049018/147853604-73cdc5c4-8367-49e8-ba00-ebcd0abe7f9e.png)
+  h-
+  ![image](https://user-images.githubusercontent.com/74049018/147853617-a15ed8dd-b9f8-48ff-a7cf-f8ca13ae9f55.png)
   
   then you will be notified via the notification channel you already configured . or you could c ur alert via the folder in alertin:
   ![image](https://user-images.githubusercontent.com/74049018/147853726-0ce806ae-5430-46fb-a823-273de848760b.png)
