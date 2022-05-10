@@ -1,7 +1,6 @@
 minikube-monitoring
 
-This is a full monitoring lab for minikube cluster 
-it's a step by step guide to monitor Minikube cluster using Prometheus,Grafana,AlertManager,Pushgateway
+This is a full monitoring lab for minikube cluster  using Prometheus,Grafana,AlertManager,Pushgateway
 
 0- Requirements:
 
